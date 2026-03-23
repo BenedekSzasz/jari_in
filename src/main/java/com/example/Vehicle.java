@@ -20,6 +20,7 @@ public class Vehicle {
     int price;
     boolean climate;
     LocalDate permission;
+    
 
     public Vehicle(){}
 
