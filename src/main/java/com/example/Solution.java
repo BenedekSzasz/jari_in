@@ -100,4 +100,28 @@ public class Solution {
             }
         });
     }
+
+    public static void printIncomeSum() {
+        int sum = 0;
+        for(Vehicle vehicle : vehicleList){
+            sum += vehicle.getPrice();
+        }
+        System.out.printf(
+            "Összes bevétel: %,d Ft\n", 
+            sum);
+    } 
+
+    public static void printIfHasHonda() {
+        String ker = "Trabant";
+        int n = vehicleList.size();
+        int i = 0;
+        while (i<n && !vehicleList.get(i).getBrand().equals(ker)) {
+            i++;
+        }
+        if (i<n) {
+            System.out.println("Van: " + ker);
+        }else{
+            System.out.println("Nincs: " + ker);
+        }
+    }
 }

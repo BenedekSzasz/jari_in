@@ -18,6 +18,8 @@ public class Main {
         // Solution.gasolineVehicle();
         // Solution.cheaperVehicles();
         // Solution.moreThanAYear();
-        Solution.onlyHonda();
+        // Solution.onlyHonda();
+        // Solution.printIncomeSum();
+        Solution.printIfHasHonda();
     }
 }
