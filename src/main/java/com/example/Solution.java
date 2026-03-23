@@ -124,4 +124,14 @@ public class Solution {
             System.out.println("Nincs: " + ker);
         }
     }
+
+    public static void printCheapestPrice () {
+        int min = vehicleList.get(0).getPrice();
+        for (Vehicle vehicle : vehicleList) {
+            if (vehicle.getPrice() < min) {
+                min = vehicle.getPrice();
+            }
+        }
+        System.out.println("Legolcsobb jarmu: " + min);
+    }
 }

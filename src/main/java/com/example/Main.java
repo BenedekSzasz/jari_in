@@ -20,6 +20,7 @@ public class Main {
         // Solution.moreThanAYear();
         // Solution.onlyHonda();
         // Solution.printIncomeSum();
-        Solution.printIfHasHonda();
+        // Solution.printIfHasHonda();
+        Solution.printCheapestPrice();
     }
 }
