@@ -31,7 +31,7 @@ public class Solution {
         System.out.println("\nBenzines Járművek:");
         // Benzines Járművek adatai
         vehicleList.forEach(vehicle -> {
-            if (vehicle.fuel.equals("benzin")) {
+            if (vehicle.getFuel().equals("benzin")) {
                 System.out.printf(
                         "%s %s %d %s %d %s %s\n",
                         vehicle.getPlate(),
