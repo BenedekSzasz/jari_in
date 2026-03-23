@@ -132,6 +132,6 @@ public class Solution {
                 min = vehicle.getPrice();
             }
         }
-        System.out.println("Legolcsobb jarmu: " + min);
+        System.out.println("Legolcsóbb jármű: " + min);
     }
 }
