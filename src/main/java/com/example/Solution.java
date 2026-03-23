@@ -1,3 +1,13 @@
+/*
+* File: Solution.java
+* Author: Szász Benedek
+* Copyright: 2026, Szász Benedek
+* Group: Szoft I N
+* Date: 2026-03-23
+* Github: https://github.com/BenedekSzasz/
+* Licenc: MIT
+*/
+
 package com.example;
 
 import java.util.List;
